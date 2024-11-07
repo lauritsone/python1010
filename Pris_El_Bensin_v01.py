@@ -46,5 +46,5 @@ elif KostnadBensin < KostnadElbil:
 
     
 
-#print(" er rimligst med en årskostnad på", KostnadElbil, "Bensin koster", KostnadForskjell, "mer per år" )
+
  
