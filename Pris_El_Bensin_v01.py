@@ -28,11 +28,23 @@ ForsikringBensin = 7500
 KostnadElbil = Trafikkforsikringsavgift + DrivstoffbrukEl + BomavgiftEl + ForsikringEL
 KostnadBensin = Trafikkforsikringsavgift + DrivstofforbrukBensin + BomavgiftBensin + ForsikringBensin
 
-print("Dette koster en Elbil pr år:", KostnadElbil)
-print("Dette koster en Bensinbil pr år:", KostnadBensin)
+print("Dette koster en Elbil pr år:", KostnadElbil, "kr")
+print("Dette koster en Bensinbil pr år:", KostnadBensin,"kr")
 
-#Funksjon for å se kost differanse
+#Funksjon for å se kost differanse, samt printe hva som er billigst
 KostnadForskjell =  KostnadBensin - KostnadElbil
+print("Det er",KostnadForskjell,"kr forskjell pr år mellom bensin og elbil")
 
-print("Elbil er rimligst med en årskostnad på", KostnadElbil, "Bensin koster", KostnadForskjell, "mer per år" )
+if KostnadBensin > KostnadElbil:
+    print("Elbil er rimeligst med en totalkost pr år på",KostnadElbil,"kr")
+    
+elif KostnadBensin < KostnadElbil:
+        print("Bensin er billigst med en totalkost pr år på",KostnadBensin,"kr")
+    
+    
+    
+
+    
+
+#print(" er rimligst med en årskostnad på", KostnadElbil, "Bensin koster", KostnadForskjell, "mer per år" )
  
