@@ -3,8 +3,11 @@
 Spyder Editor
 
 Author: Thomas L
-2024-11-04
-This is a temporary script file.
+7 november
+2024
+
+
+
 """
 
 
