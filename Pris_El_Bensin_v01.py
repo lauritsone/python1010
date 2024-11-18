@@ -39,20 +39,16 @@ KostnadForskjell =  KostnadBensin - KostnadElbil
 print("Det er",KostnadForskjell,"kr forskjell pr år mellom bensin og elbil")
 
 if KostnadBensin > KostnadElbil:
-    print("Elbil er rimeligst med en totalkost pr år på",KostnadElbil,"kr")
-    print("         ")
-    print("Dette består årskostnaden av:")
-    print("         ")
+    print("Elbil er rimeligst med en totalkost pr år på",KostnadElbil,"kr",end="\n\n")
+    print("Dette består årskostnaden av:",end="\n\n")
     print("Trafikkforsikringsavgift:",round(Trafikkforsikringsavgift,1),"kr")
     print("Kostnad drivstoff:",DrivstoffbrukEl,"kr")
     print("Bomavgift", BomavgiftEl,"kr")
     print("Forsikring",ForsikringEL,"kr")
     
 elif KostnadBensin < KostnadElbil:
-        print("Bensin er billigst med en totalkost pr år på",KostnadBensin,"kr")
-        print("         ")
-        print("Dette består årskostnaden av:")
-        print("         ")
+        print("Bensin er billigst med en totalkost pr år på",KostnadBensin,"kr",end="\n\n")
+        print("Dette består årskostnaden av:",end="\n\n")
         print("Trafikkforsikringsavgift:",round(Trafikkforsikringsavgift,1),"kr")
         print("Kostnad drivstoff:",DrivstofforbrukBensin,"kr")
         print("Bomavgift", BomavgiftBensin,"kr")
